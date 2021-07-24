@@ -14,15 +14,17 @@ const Hero = () => (
       <SectionTitle main center>
         fáilte <br /> Meine Portfolio
       </SectionTitle>
-      <SectionText>Let's see what We build next...</SectionText>
+      <SectionText>
+        Fullstack React Developer, Let's see what i build next...
+      </SectionText>
     </LeftSection>
-    <button
+    <Button
       onClick={(e) =>
-        (window.location = 'https://developer.mozilla.org/en-US/')
+        (window.location = 'https://github.com/AhmadS7?tab=repositories')
       }
     >
       Learn More
-    </button>
+    </Button>
   </Section>
 );
 
